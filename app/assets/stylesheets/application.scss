@@ -26,5 +26,15 @@ h1 {
 
 #flowers {
         padding-left: 1em;
-        text-align: center;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
 }
+
+.card {
+        width: calc(25% - 2em);
+        margin: 10px;
+}
+
