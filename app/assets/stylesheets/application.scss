@@ -25,7 +25,12 @@ h1 {
 }
 
 #flowers {
-        padding-left: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         text-align: center;
 }
 
